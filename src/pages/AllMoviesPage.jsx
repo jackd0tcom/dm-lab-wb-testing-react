@@ -1,4 +1,4 @@
-import { Link, useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from "react-router-dom";
 
 export default function AllMoviesPage() {
   const { movies } = useLoaderData();
